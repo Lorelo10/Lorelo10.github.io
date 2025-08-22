@@ -1,31 +1,53 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>Encuestas de Factores Psicosociales</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuestas Psicosociales</title>
     <style>
-        body { font-family: Arial, sans-serif; background-color: #f4f8fb; text-align: center; padding: 50px; }
-        h1 { color: #003366; }
-        .button {
-            display: inline-block;
-            margin: 20px;
-            padding: 15px 25px;
-            font-size: 18px;
-            color: white;
-            background-color: #007BFF;
-            border: none;
-            border-radius: 8px;
-            text-decoration: none;
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f8fb;
+            margin: 0;
+            padding: 0;
         }
-        .button:hover { background-color: #0056b3; }
+        h1 {
+            color: #003366;
+            margin-top: 40px;
+        }
+        .button-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 40px;
+            gap: 20px;
+        }
+        .survey-button {
+            display: inline-block;
+            width: 220px;
+            padding: 15px 0;
+            font-size: 16px;
+            font-weight: bold;
+            color: #fff;
+            background-color: #007BFF;
+            text-decoration: none;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .survey-button:hover {
+            background-color: #0056b3;
+            transform: translateY(-2px);
+        }
     </style>
 </head>
 <body>
-    <h1>Encuestas de Factores Psicosociales</h1>
-   <div class="button-container">
-        <a class="survey-button" href="https://surveyjs.io/published?id=92c235cc-cdf7-46ff-bfe3-bb70296b4180" target="_blank">Comenzar Intralaboral A</a>
-        <a class="survey-button" href="https://surveyjs.io/published?id=01eb32a0-75aa-4b27-850b-123161586f5f" target="_blank">Comenzar Intralaboral B</a>
+    <h1>Encuestas Psicosociales</h1>
+    <div class="button-container">
+        <a class="survey-button" href="https://surveyjs.io/published?id=cb12393c-b0a9-482d-bf5d-a28b1d607016" target="_blank">Datos de Contacto</a>
+        <a class="survey-button" href="https://surveyjs.io/published?id=92c235cc-cdf7-46ff-bfe3-bb70296b4180" target="_blank">Intralaboral A</a>
+        <a class="survey-button" href="https://surveyjs.io/published?id=01eb32a0-75aa-4b27-850b-123161586f5f" target="_blank">Intralaboral B</a>
     </div>
 </body>
 </html>
