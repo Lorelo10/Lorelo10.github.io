@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encuestas Psicosociales - Forma A</title>
+  <style>
+    body { font-family: Arial, sans-serif; text-align: center; background-color: #f4f8fb; margin: 0; padding: 0; }
+    h1 { color: #003366; margin-top: 40px; }
+    .button-container { display: flex; flex-wrap: wrap; justify-content: center; margin-top: 40px; gap: 20px; max-width: 800px; margin-left: auto; margin-right: auto; }
+    .survey-button { display: inline-block; width: 280px; padding: 15px 0; font-size: 16px; font-weight: bold; color: #fff; background-color: #007BFF; text-decoration: none; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); transition: background-color 0.3s, transform 0.2s; }
+    .survey-button:hover { background-color: #0056b3; transform: translateY(-2px); }
+  </style>
+</head>
+<body>
+  <h1>Encuestas Psicosociales - Forma A</h1>
+  <div class="button-container">
+    <a class="survey-button" href="https://surveyjs.io/published?id=cb12393c-b0a9-482d-bf5d-a28b1d607016" target="_blank">Datos de Contacto</a>
+    <a class="survey-button" href="https://surveyjs.io/published?id=92c235cc-cdf7-46ff-bfe3-bb70296b4180" target="_blank">Factores Intralaboral A</a>
+    <a class="survey-button" href="https://surveyjs.io/published?id=0eba9a03-e8e8-41b9-af46-e6e42a866f01" target="_blank">Factores Extralaborales</a>
+    <a class="survey-button" href="https://surveyjs.io/published?id=e6dc3f57-21a5-4d3c-935a-281ea589e864" target="_blank">Cuestionario de Estrés</a>
+  </div>
+</body>
+</html>
